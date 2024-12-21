@@ -1,6 +1,6 @@
 const express = require("express");
 const {
-    handleGetAllShortURLs,
+  handleGetAllShortURLs,
   handleGenerateNewShortURL,
   handleGetOriginalURLFromShortId,
 } = require("../controllers/url");
